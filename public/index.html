@@ -24,6 +24,21 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+<!--
+    #1,2 kakaoMap api & script
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=beef395ac58f9ef890b8b34d251e5fa0"></script>
+
+    <script>
+      function loadMap() {
+          const container = document.getElementById("map");
+    var options = {
+      center: new window.kakao.maps.LatLng(33.450701, 126.570667),
+      level: 3,
+    };
+
+    var map = new window.kakao.maps.Map(container, options);
+      }
+    </script> -->
     <title>React App</title>
   </head>
   <body>
