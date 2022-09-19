@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true, // 저장시 자동으로 포멧이 맞춰짐
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true //ES Lint 저장 시 자동 fix 설정
+  },
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true
+}
